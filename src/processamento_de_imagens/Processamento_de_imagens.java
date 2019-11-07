@@ -17,9 +17,13 @@ public class Processamento_de_imagens {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws FileNotFoundException {
-        Imagem img = new Imagem("src/mona_lisa.pgm");
-//        img.mostra_matriz();
-        img.escreve_pgm("teste");
+        Imagem img = new Imagem("src/lena.pgm");
+        img.passa_baixa();
+        img.passa_alta();
+        img.sobel_3x3();
+        img.prewitt();
+        img.sobel_2x2();
+        img.isotropico();
     }
     
 }
