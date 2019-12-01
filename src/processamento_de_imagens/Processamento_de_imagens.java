@@ -21,7 +21,7 @@ public class Processamento_de_imagens {
 
 
         /*
-         * Escolha a imagem de entrada(as duas do moodle estão abaixo)
+         * Escolha a imagem de entrada(as duas disponibilizadas no moodle estão salvas)
          * A classe imagem realiza a leitura do arquivo
          *  além disso possui a implementação de cada mascara.
          * 
@@ -31,8 +31,8 @@ public class Processamento_de_imagens {
 
 
         /*
-         * Cada método é responsavel pela operação aritmetica
-         * internamente cada metodo chama o metodo escreve.pgm
+         * Cada um dos métodos a seguir é responsavel pela operação aritmetica da mascara
+         * além disso internamente cada metodo chama o metodo privado escreve.pgm
          * as imagens são salvas em src/processamento_de_imagens/filtered_images
          *
          * ps: a execução com uma segunda imagem de entrada 
